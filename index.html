@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,800,800i" rel="stylesheet">
+<style>
+  h2{
+    font-family: "Open Sans";
+    font-size: 50px;
+  }
+  #OJ{
+    font-family: "Open Sans";
+    font-size: 20px;
+  }
+  label{
+    font-family: "Open Sans";
+    font-style: italic;
+    font-size: 15px;
+  }
+  #contact{
+    color:#FEB714;
+    font-family: "Open Sans";
+    font-style: oblique;
+    font-size: 50px;
+    margin-bottom: 2px;
+  }
+body {font-family: "Open Sans", Arial, sans-serif}
+header{
+  font-size: 45px;
+}
+.w3-row img {margin-bottom: -8px}
+</style>
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+  <!-- Header -->
+  <header class="w3-container w3-padding-32" >
+    <a href="#" class="w3-left w3-button w3-white">Ojasvin Kirpane</a>
+    <a href="#about" class="w3-right w3-button w3-white">About</a>
+  </header>
+
+  <!-- Photo Grid -->
+  <div class="w3-row">
+    <div class="w3-half">
+      <img src="/images/01.jpg" style="width:100%">
+      <img src="/images/02.jpg" style="width:100%">
+      <img src="/images/03.png" style="width:100%">
+    </div>
+
+    <div class="w3-half">
+      <img src="/images/04.jpg" style="width:100%">
+      <img src="/images/05.jpg" style="width:100%">
+      <img src="/images/06.png" style="width:100%">
+      <img src="/images/07.jpg" style="width:100%">
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer / About Section -->
+<footer class="w3-padding-64 w3-center" id="about">
+  <h2>About</h2>
+  <img src="/images/07.png" class="w3-image w3-padding-32" width="200" height="200">
+  <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+    <p id="OJ">I am a creative technologist with a passion for Use experience, Interaction and Grpahic design.</p>
+    <p id="contact" class=" w3-padding-64">Contact me below!</p>
+    <div class="w3-section">
+      <label><b>Name</b></label>
+      <input class="w3-input w3-border" type="text" required name="Name">
+    </div>
+    <div class="w3-section">
+      <label><b>Email</b></label>
+      <input class="w3-input w3-border" type="text" required name="Email">
+    </div>
+    <div class="w3-section">
+      <label><b>Message</b></label>
+      <input class="w3-input w3-border" required name="Message">
+    </div>
+    <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+  </form>
+  <br>
+</footer>
+ 
+</body>
+</html>
